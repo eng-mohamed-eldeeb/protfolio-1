@@ -3,7 +3,7 @@
 # HELLO MICROVERSE
 
 > AN HTML AND CSS FILE.
- 
+
 ![screenshot](./IMG1.png)
 
 Additional description about the project and its features.
@@ -16,6 +16,7 @@ Additional description about the project and its features.
 ## Authors
 
 👤 **MOHAMED EL DEEB**
+👤 **PASCAL KABIKA**
 
 - GitHub: [@githubhandle](https://github.com/eng-mohamed-eldeeb)
 - Twitter: [@twitterhandle](https://https://twitter.com/eldeeb_3o)
