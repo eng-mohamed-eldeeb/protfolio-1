@@ -22,41 +22,55 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="nav">
-      <a href="#" class="logo"><h1>My logo</h1></a>
-      <nav><i class="fas fa-bars menu_icon"></i></nav>
-    </header>
-    <section class="container">
-      <div>
-        <div class="myIntro"><h1>I’m Eldeeb Glad to see you!</h1></div>
-        <div class="mYInfo">
-          <p>
-            I’m a software developer! I can help you build a product , feature
-            or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
-            contact me.
-          </p>
+    <section class="hero">
+      <header class="navbar">
+        <div class="navbar-container">
+          <div class="brand">
+            <a href="#" class="logo"><h1>My logo</h1></a>
+          </div>
+          <nav>
+            <ul class="nav-links">
+              <li class="nav-link">
+                <a href="#protofilo">Portoflio</a>
+              </li>
+              <li class="nav-link">
+                <a href="#about">About</a>
+              </li>
+              <li class="nav-link">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+            <div>
+              <i class="fas fa-bars bars-icon"></i>
+            </div>
+          </nav>
         </div>
-        <div>
-          <a class="connect" href="">LET’S CONNECT</a>
-        </div>
-        <div class="icons">
-          <ul class="icons_cont">
-            <li>
-              <i class="fab fa-twitter"></i>
-            </li>
-            <li>
-              <a href=""> <img src="./img/Vector-1.png" alt="" /></a>
-            </li>
-            <li>
-              <i class="fab fa-github"></i>
-            </li>
-            <li>
-              <i class="far fa-hand-peace"></i>
-            </li>
-          </ul>
-        </div>
-      </div>
+      </header>
+      <section class="hero-container">
+        <h1 class="hero-heading">I’m Eldeeb <br>   Glad to see you!</h1>
+        <p class="hero-description">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <a class="connect" href="">LET’S CONNECT</a>
+
+        <ul class="hero-icons">
+          <li>
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li>
+            <a href=""> <img src="./img/Vector-1.png" alt="" /></a>
+          </li>
+          <li>
+            <i class="fab fa-github"></i>
+          </li>
+          <li>
+            <i class="far fa-hand-peace"></i>
+          </li>
+        </ul>
+      </section>
     </section>
     <section class="works">
       <div class="container3">
@@ -66,9 +80,7 @@
             <h3>Tonic</h3>
             <div class="in-body">
               <p class="a7a">CANOPY</p>
-              <img src="Counter.png" alt="" />
               <p>BACK END DEV</p>
-              <img src="Counter.png" alt="" />
               <p>2015</p>
             </div>
             <p class="dis--">
@@ -89,9 +101,7 @@
             <h3>Tonic</h3>
             <div class="in-body">
               <p class="a7a">CANOPY</p>
-              <img src="Counter.png" alt="" />
               <p>BACK END DEV</p>
-              <img src="Counter.png" alt="" />
               <p>2015</p>
             </div>
             <p class="dis--">
@@ -112,9 +122,7 @@
             <h3>Tonic</h3>
             <div class="in-body">
               <p class="a7a">CANOPY</p>
-              <img src="Counter.png" alt="" />
               <p>BACK END DEV</p>
-              <img src="Counter.png" alt="" />
               <p>2015</p>
             </div>
             <p class="dis--">
@@ -135,9 +143,7 @@
             <h3>Tonic</h3>
             <div class="in-body">
               <p class="a7a">CANOPY</p>
-              <img src="Counter.png" alt="" />
               <p>BACK END DEV</p>
-              <img src="Counter.png" alt="" />
               <p>2015</p>
             </div>
             <p class="dis--">
@@ -167,7 +173,7 @@
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
           </p>
-          <h2 class="LETS connect">LET’S CONNECT</h2>
+          <a class="LETS connect">LET’S CONNECT</a>
           <ul class="icons_cont">
             <li>
               <a href=""><i class="fab fa-twitter"></i></a>
@@ -188,47 +194,41 @@
           <button type="button">Get my resume</button>
         </div>
         <div class="container4">
-          <div class="last-part">
-            <ul class="ll11">
-              <li>
-                <h3>Languages</h3>
-              </li>
-              <li>
+          <div class="skills-list">
+            <div class="skills-container open">
+              <div class="skills-heading">
+                <p class="skl-h1">Languages</p>
                 <i class="fas fa-angle-down"></i>
-              </li>
-            </ul>
-            <ul class="Languages-1">
-              <li class="language">
-                <img src="./img/js.png" alt="" />
-                <p>JavaScript</p>
-              </li>
-              <li class="language">
-                <img src="./img/html.png" alt="" />
-                <p>HTML</p>
-              </li>
-              <li class="language">
-                <img src="./img/css.png" alt="" />
-                <p>CSS</p>
-              </li>
-            </ul>
-            <ul class="frameworks">
-              <li>
-                <h3>Frameworks</h3>
-              </li>
-              <li>
+              </div>
+              <ul class="skills-content">
+                <li class="skill">
+                  <img src="./img/js.png" alt="js" class="skill-image" />
+                  <p class="skill-title">JavaScript</p>
+                </li>
+                <li class="skill">
+                  <img src="./img/html.png" alt="html" class="skill-image" />
+                  <p class="skill-title">Html</p>
+                </li>
+                <li class="skill">
+                  <img src="./img/css.png" alt="css" class="skill-image" />
+                  <p class="skill-title">CSS</p>
+                </li>
+              </ul>
+            </div>
+            <div class="skills-container">
+              <div class="skills-heading">
+                <p class="skl-h1">Frameworks</p>
                 <i class="fas fa-angle-right"></i>
-              </li>
-            </ul>
-            <hr />
-            <ul class="skills">
-              <li>
-                <h3>Skills</h3>
-              </li>
-              <li>
+              </div>
+              <div class="skills-content"></div>
+            </div>
+            <div class="skills-container">
+              <div class="skills-heading">
+                <p class="skl-h1">Skills</p>
                 <i class="fas fa-angle-right"></i>
-              </li>
-            </ul>
-            <hr />
+              </div>
+              <div class="skills-content"></div>
+            </div>
           </div>
         </div>
       </div>
@@ -238,7 +238,7 @@
       <div class="form-container">
         <div class="form-title">
           <h3>Contact Me</h3>
-          <p>
+          <p class="text-muted">
             If you have an application you are interested in developing, a
             feature that you need built or a project that needs coding. I’d love
             to help with it
@@ -262,6 +262,7 @@
                 class="userInfo"
                 name="userMail"
                 placeholder="You'r email"
+                required
               />
             </li>
             <li>

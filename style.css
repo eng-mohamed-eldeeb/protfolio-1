@@ -1,10 +1,8 @@
+/* stylelint-disable declaration-block-no-duplicate-properties */
 * {
   margin: 0;
   padding: 0;
-  font-family: "Indie Flower", cursive;
-  font-family: "Paprika", cursive;
   font-family: "Poppins", sans-serif;
-  font-family: "Spline Sans", sans-serif;
   text-decoration: none;
   box-sizing: border-box;
 }
@@ -13,67 +11,91 @@ body {
   background-color: #e5e5e5;
 }
 
+.d-none {
+  display: none;
+}
+
 li {
   list-style: none;
-  margin-right: 19px;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  background-color: #fff;
-}
-
-.menu_icon {
-  margin-top: 10px;
-  margin-left: 170px;
-  color: #6070ff;
-}
-
-.logo {
-  margin: 10px 0 0 24px;
-  height: 20px;
-  font-size: 10px;
-  font-weight: bold;
-  color: #6070ff;
-}
-
-.container {
-  background-image: url("./img/mopbkg.png");
-  background-color: #fff;
+.hero {
+  background: white url("./img/mopbkg.png");
   width: 100%;
-  padding-top: 128px;
-  padding-left: 12px;
-  padding-bottom: 200px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   border-radius: 0 0 0 90px;
 }
 
-.myIntro {
-  width: 327px;
-  left: 24px;
-  top: 114px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  color: #172b4d;
+.navbar {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
-.mYInfo {
-  margin: 12px 0;
-  width: 327px;
-  height: 146px;
-  left: 24px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
+.navbar-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-items: center;
+  width: 100%;
+  max-width: 1280px;
+}
+
+.bars-icon {
+  color: #6070ff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: none;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.logo {
+  color: #6070ff;
+}
+
+.nav-link a {
   color: #344563;
 }
 
-.connect {
+.hero-container {
+  padding: 24px;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  gap: 12px;
+}
+
+.hero-container a {
   color: #7f8cff;
+}
+
+.hero-heading {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  line-height: 52px;
+}
+
+.hero-icons {
+  display: flex;
+  gap: 20px;
 }
 
 .icons_cont {
@@ -108,6 +130,10 @@ li {
   padding: 16px;
 }
 
+.project h3 {
+  color: #172b4d;
+}
+
 .img100 {
   width: 100%;
   margin: auto;
@@ -121,15 +147,15 @@ li {
   margin: 7px 0;
 }
 
-.in-body {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.skills-container p {
+  color: #344563;
+  font-weight: 500;
 }
 
-.in-body img {
-  width: 8px;
-  height: 8px;
+.in-body {
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .in-body p {
@@ -137,6 +163,21 @@ li {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
+}
+
+.in-body p:not(:last-child)::after {
+  content: "•";
+  font-size: 28px;
+  color: #c4c4c4;
+  margin-bottom: 1px;
+  margin-left: 10px;
+}
+
+.in-body p:not(:last-child) {
+  padding-right: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .in-body .a7a {
@@ -159,9 +200,13 @@ li {
 
 .ppp {
   background-color: #ebebff;
+  font-size: 12px;
+  color: #6070ff;
   border-radius: 8px;
   margin-right: 20px;
   padding: 5px 15px;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 button {
@@ -205,23 +250,21 @@ button:focus {
   margin-left: 24px;
 }
 
-.greads {
-  margin-bottom: 24px;
-  width: 327px;
-  height: 101px;
-  font-size: 40px;
+.contaner5 h2 {
   color: #172b4d;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 .intrudusing {
-  margin-bottom: 12px;
-  width: 327px;
-  height: 144px;
+  margin: 12px 0;
 }
 
 .LETS {
+  margin-top: 12px;
   font-size: 16px;
-  line-height: 24px;
+  color: #7f8cff;
+  font-weight: 500;
 }
 
 .about button {
@@ -232,32 +275,59 @@ button:focus {
 }
 
 .container4 {
-  margin: 40px auto;
-  margin-left: 24px;
   width: 87%;
+  margin: 40px auto;
 }
 
-.container4 h3 {
-  height: 24px;
-  left: 12px;
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 12px;
+}
+
+.skl-h1 {
   font-weight: 500;
   font-size: 20px;
+  color: #000;
 }
 
-.language {
+.skills-heading {
   display: flex;
-  align-items: center;
-  width: 100%;
-  height: 66.72px;
-  background: #f7f7f9;
-  border-radius: 8px;
-  margin: 12px 0;
+  justify-content: space-between;
+  padding: 6px 10px;
+  border-bottom: 1px solid #ebecf0;
 }
 
-.language i {
+.skills-container.open .skills-heading {
+  border: none;
+}
+
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.skills-content .skill {
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  gap: 16px;
+  width: 100%;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.skills-content .skill .skill-image {
   width: 48px;
   height: 48px;
-  margin-left: 12px;
 }
 
 hr {
@@ -267,11 +337,9 @@ hr {
 
 .ll11 {
   display: flex;
-  flex-direction: row;
-}
-
-.ll11 i {
-  margin-left: 150px;
+  padding: 0 12px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .Languages-1 img {
@@ -301,6 +369,7 @@ hr {
 }
 
 .form-container {
+  padding: 120px 20px;
   background-color: #6070ff;
   border-radius: 100px 0 0 0;
   width: 100%;
@@ -316,9 +385,15 @@ form {
 }
 
 .form-title h3 {
-  margin-top: 103px;
-  font-size: 30px;
   color: #fff;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.text-muted {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .container4 ul li h3 {
@@ -346,25 +421,20 @@ footer {
 
 .form-title {
   width: 100%;
-  padding-top: 1px;
   background-repeat: no-repeat;
   text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 0;
+  color: #fff;
 }
 
 .contactInfo {
   text-align: center;
   width: 65%;
   color: #ebebff;
-}
-
-.form-title p {
-  text-align: center;
-  width: 327px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12px;
-  margin-bottom: 20px;
-  color: #fff;
 }
 
 .userInfo {
@@ -384,5 +454,4 @@ footer {
 
 .touch_btn {
   margin-top: 22px;
-  margin-bottom: 57px;
 }
