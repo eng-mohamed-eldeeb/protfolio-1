@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **MOHAMED EL DEEB**
+👤 **MOHAMED EL DEEB** and
 👤 **PASCAL KABIKA**
 
 - GitHub: [@githubhandle](https://github.com/eng-mohamed-eldeeb)
