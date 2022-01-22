@@ -7,6 +7,7 @@
 ![screenshot](./img/sshot.png)
 
 ![screenshot](./img/scs.png)
+
 Additional description about the project and its features.
 
 ## Built With
