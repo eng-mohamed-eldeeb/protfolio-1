@@ -538,6 +538,16 @@ footer {
     padding-bottom: 150px;
   }
 
+  .skills-content {
+    flex-direction: row;
+  }
+
+  .skills-content .skill {
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+  }
+
   .myIntro {
     width: 100%;
   }
