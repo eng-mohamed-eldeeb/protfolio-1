@@ -1,10 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# HELLO MICROVERSE
+# Portfolio desktop version
 
-> AN HTML AND CSS FILE.
+> This is the desktop vesrion of my portifolio.
+ 
+![screenshot](./img/sshot.png)
 
-![screenshot](./IMG1.png)
+![screenshot](./img/scs.png)
 
 Additional description about the project and its features.
 
@@ -16,7 +18,6 @@ Additional description about the project and its features.
 ## Authors
 
 👤 **MOHAMED EL DEEB**
-👤 **PASCAL KABIKA**
 
 - GitHub: [@githubhandle](https://github.com/eng-mohamed-eldeeb)
 - Twitter: [@twitterhandle](https://https://twitter.com/eldeeb_3o)

@@ -20,7 +20,8 @@ li {
 }
 
 .hero {
-  background: white url("./img/mopbkg.png");
+  background: white url("./img/desktopb-mobile.png") no-repeat center;
+  background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -61,12 +62,12 @@ nav {
   gap: 32px;
 }
 
-.logo {
-  color: #6070ff;
-}
-
 .nav-link a {
   color: #344563;
+}
+
+.logo {
+  color: #6070ff;
 }
 
 .hero-container {
@@ -87,7 +88,7 @@ nav {
 
 .hero-heading {
   color: #172b4d;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   line-height: 52px;
@@ -98,6 +99,10 @@ nav {
   gap: 20px;
 }
 
+.hero-icons li a i {
+  color: #505f79;
+}
+
 .icons_cont {
   margin-top: 12px;
   display: flex;
@@ -106,6 +111,10 @@ nav {
 
 .icons_cont li {
   margin-right: 20px;
+}
+
+.icons_cont li a i {
+  color: #505f79;
 }
 
 .works {
@@ -310,6 +319,7 @@ button:focus {
 }
 
 .skills-content {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -373,7 +383,7 @@ hr {
   background-color: #6070ff;
   border-radius: 100px 0 0 0;
   width: 100%;
-  background-image: url(./img/formBG.png);
+  background-image: url(./img/dsq.png);
   background-repeat: no-repeat;
   background-position: 100% 20px;
   background-size: contain;
@@ -454,4 +464,201 @@ footer {
 
 .touch_btn {
   margin-top: 22px;
+}
+
+@media screen and (min-width: 992px) {
+  .ppp {
+    padding: 3.5px 8px;
+    margin-top: 8px;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .nav {
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 0 10.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  .contaner {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 72px;
+    border-radius: 0 0 0 100px;
+  }
+
+  .see-por .project-modal-content {
+    width: 70%;
+  }
+
+  .project-modal-content .img100 {
+    height: 40vh;
+  }
+
+  .disk-ver p {
+    width: 70%;
+    overflow-y: scroll;
+    height: 26vh;
+    text-align: justify;
+  }
+
+  i.fa-bars {
+    display: none;
+  }
+
+  .nav-anca {
+    display: block;
+  }
+
+  .nav-anca a {
+    margin-left: 32px;
+  }
+
+  .hero {
+    background: white url("./img/dsq.png") no-repeat center;
+  }
+
+  .contaner2 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 130px;
+    padding-bottom: 150px;
+  }
+
+  .skills-content {
+    flex-direction: row;
+  }
+
+  .skills-content .skill {
+    display: flex;
+    flex-direction: column;
+    width: 122px;
+  }
+
+  .myIntro {
+    width: 100%;
+  }
+
+  .myIntro h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+  }
+
+  .mYInfo p {
+    margin-top: 12px;
+    font-weight: 400;
+  }
+
+  .project {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 71px auto;
+  }
+
+  .project:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .project img {
+    width: 50%;
+  }
+
+  .project-info {
+    width: 60%;
+    padding: 48px 22px 0 46px;
+  }
+
+  .about-me {
+    width: 100%;
+    margin-top: 71px;
+    background-color: white;
+    border-radius: 0 100px 0 0;
+  }
+
+  .about {
+    width: 80%;
+    margin: auto;
+    display: flex;
+  }
+
+  .container4 {
+    padding-top: 130px;
+    width: 60%;
+    padding-left: 50px;
+    margin: 0 auto;
+  }
+
+  .contaner5 {
+    padding-top: 130px;
+    width: 40%;
+  }
+
+  .greads {
+    font-size: 48px;
+  }
+
+  .contaner5 button {
+    width: 165px;
+    margin-top: 15px;
+  }
+
+  .Languages-1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .language {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 122px;
+    height: 120px;
+    margin-left: 12px;
+    padding: 12px;
+  }
+
+  .language img {
+    margin-left: 0;
+  }
+
+  .language p {
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  .form-title {
+    width: 40%;
+    margin: auto;
+  }
+
+  form {
+    width: 40%;
+    margin: auto;
+  }
+
+  .ulclass li {
+    margin-right: 0;
+  }
+
+  .btnArea {
+    text-align: center;
+  }
 }
