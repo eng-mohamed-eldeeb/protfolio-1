@@ -61,7 +61,6 @@ nav {
   gap: 32px;
 }
 
-
 .nav-link a {
   color: #344563;
 }
@@ -69,7 +68,6 @@ nav {
 .logo {
   color: #6070ff;
 }
-
 
 .hero-container {
   padding: 24px;
@@ -89,9 +87,7 @@ nav {
 
 .hero-heading {
   color: #172b4d;
-
   font-size: 48px;
-
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   line-height: 52px;
@@ -101,7 +97,6 @@ nav {
   display: flex;
   gap: 20px;
 }
-
 
 .hero-icons li a i {
   color: #505f79;
@@ -118,7 +113,7 @@ nav {
 }
 
 .icons_cont li a i {
-  color: #505F79;
+  color: #505f79;
 }
 
 .works {
