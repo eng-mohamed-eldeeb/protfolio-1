@@ -229,6 +229,7 @@ button {
   font-size: 17px;
   line-height: 24px;
   margin-bottom: 16px;
+  transition: 0.3s;
 }
 
 button:hover {
