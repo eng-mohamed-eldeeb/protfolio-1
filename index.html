@@ -63,7 +63,6 @@
 
         <ul class="hero-icons">
           <li>
-
             <a href="">
               <i class="fab fa-twitter"></i>
             </a>
@@ -206,12 +205,12 @@
           <button type="button">Get my resume</button>
         </div>
         <div class="container4">
-          <div class="skills-list">
-            <ul class="skills-container open">
-              <li class="skills-heading">
+          <ul class="skills-list">
+            <li class="skills-container open">
+              <div class="skills-heading">
                 <p class="skl-h1">Languages</p>
                 <i class="fas fa-angle-down"></i>
-              </li>
+              </div>
               <ul class="skills-content">
                 <li class="skill">
                   <img src="./img/js.png" alt="js" class="skill-image" />
@@ -226,22 +225,22 @@
                   <p class="skill-title">CSS</p>
                 </li>
               </ul>
-            </ul>
-            <div class="skills-container">
-              <li class="skills-heading">
+            </li>
+            <li class="skills-container">
+              <div class="skills-heading">
                 <p class="skl-h1">Frameworks</p>
                 <i class="fas fa-angle-right"></i>
-              </li>
+              </div>
               <div class="skills-content"></div>
-            </div>
-            <div class="skills-container">
-              <li class="skills-heading">
+            </li>
+            <li class="skills-container">
+              <div class="skills-heading">
                 <p class="skl-h1">Skills</p>
                 <i class="fas fa-angle-right"></i>
-              </li>
+              </div>
               <div class="skills-content"></div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -294,5 +293,19 @@
       </div>
     </footer>
     <script src="main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KGSDMJFL9T"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KGSDMJFL9T");
+    </script>
   </body>
 </html>
