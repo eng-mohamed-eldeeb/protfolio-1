@@ -240,8 +240,8 @@ button:hover {
 
 button:focus {
   color: white;
-  background-color: #2230d2;
-  border: 1px solid #2230d2;
+  background-color: #3f4cdb;
+  border: 1px solid #3f4cdb;
 }
 
 .about-me {
