@@ -1,10 +1,29 @@
 /* stylelint-disable declaration-block-no-duplicate-properties */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+.menu-visible {
+  opacity: 1;
+  display: flex;
+  position: fixed;
+}
+
+.menu-hidden {
+  display: none;
+  opacity: 0;
+}
+
+.no-scroll {
+  overflow-y: hidden;
 }
 
 body {
@@ -19,7 +38,7 @@ li {
   list-style: none;
 }
 
-.hero {
+#hero {
   background: white url("./img/desktopb-mobile.png") no-repeat center;
   background-size: cover;
   width: 100%;
@@ -27,6 +46,34 @@ li {
   display: flex;
   flex-direction: column;
   border-radius: 0 0 0 90px;
+}
+
+.mop_menu {
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #4d5bdab9;
+  z-index: 2;
+  backdrop-filter: blur(5px);
+  padding: 28px;
+}
+
+.mop_menu i {
+  color: #fff;
+  align-self: end;
+}
+
+.mop_menu ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.mop_menu ul li a {
+  font-weight: 600;
+  font-size: 32px;
+  color: #fff;
 }
 
 .navbar {

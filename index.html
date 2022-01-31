@@ -22,7 +22,16 @@
     <title>Mohamed's Portfolio homepage</title>
   </head>
   <body>
-    <section class="hero">
+    <div class="mop_menu menu-hidden">
+      <i id="xIcon" class="fas fa-2x fa-times"></i>
+      <ul>
+        <li><a class="listOption" href="#hero">Portfolio</a></li>
+        <li><a class="listOption" href="#works">About</a></li>
+        <li><a class="listOption" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <section id="hero">
       <header class="navbar">
         <div class="navbar-container">
           <div class="brand">
@@ -41,7 +50,7 @@
               </li>
             </ul>
             <div>
-              <i class="fas fa-bars bars-icon"></i>
+              <i id="menuIcon" class="fas fa-bars bars-icon"></i>
             </div>
           </nav>
         </div>
@@ -83,7 +92,7 @@
         </ul>
       </div>
     </section>
-    <section class="works">
+    <section id="works">
       <div class="container3">
         <div class="project">
           <img class="img100" src="./img/workPhoto.png" alt="work photo one" />
@@ -128,7 +137,11 @@
           </div>
         </div>
         <div class="project">
-          <img class="img100" src="./img/workPoto2.png" alt="work photo three" />
+          <img
+            class="img100"
+            src="./img/workPoto2.png"
+            alt="work photo three"
+          />
           <div class="project-info">
             <h3>Tonic</h3>
             <div class="in-body">
