@@ -11,7 +11,6 @@ html {
   box-sizing: border-box;
 }
 
-
 body {
   background-color: #e5e5e5;
 }
@@ -44,16 +43,14 @@ body {
 }
 
 .Contaner {
-  width: 61.2%;
-  height: 90%;
+  width: 80%;
+  height: auto;
   background-color: #fff;
   border-radius: 20px;
 }
 
 .Contaner .wrapper {
-  /* display: flex;
-  flex-direction: column; */
-  padding: 28px;
+  padding: 16px;
 }
 
 .Contaner #xIconPopup {
@@ -67,40 +64,36 @@ body {
 
 .bottom {
   display: flex;
-  flex-direction: row;
-  padding-bottom: 30px;
+  flex-direction: column;
+  /* padding-right: 10px; */
+}
+
+.bottom div {
+  overflow: hidden;
+  height: 20vh;
+  margin: 30px 0;
 }
 
 .bottom p {
-  font-size: 14px;
-  width: 80%;
-  height: 30%;
-  padding: 12px 20px 12px 0;
+  /* width: 100%; */
+  /* margin-bottom: 24px; */
+  margin-right: 10px;
 }
 
-.bottom .grd {
-  height: 25%;
-  width: 25%;
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  padding-bottom: 24px;
-  border-bottom: 1px solid #DFE1E6;
+.grd {
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: row;
+  /* margin-bottom: 20px; */
 }
 
-.bottom .grd li {
-  margin-right: 8px;
-  padding: 4px;
-  height: 28px;
-}
-
-.seeMore {
+/* .buttom ul {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  line-height: 7px;
-  /* margin-top: 20px; */
-}
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dfe1e6;
+} */
 
 .seeMore i {
   margin-right: 7px;
@@ -109,17 +102,41 @@ body {
 .list_buttons {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .list_buttons .btns {
+  margin: 0;
   display: flex;
-  flex-direction: row;
+  /* margin-bottom: 10px; */
+
+  /* justify-content: space-between; */
+  height: 70px;
+  width: 270px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.list_buttons .btns button {
+  white-space: nowrap;
+  margin-right: 10px;
+  height: 40%;
+  padding: 18px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .seeMore {
   display: flex;
   justify-content: space-around;
   margin-right: 7px;
+}
+
+#xIconPopup {
+  background-color: #fff;
+  border: none;
 }
 
 .mobPopupWindow {
@@ -134,21 +151,13 @@ body {
   align-items: center;
 }
 
-.mobBottom {
-  display: flex;
-  flex-direction: column;
-}
-
-.mobBottom ul {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #DFE1E6;
+.d-- {
+  display: none;
 }
 
 .btns {
   margin-top: 20px;
+  height: 70px;
   display: flex;
   flex-direction: row;
 }
@@ -384,31 +393,28 @@ nav {
   border-radius: 8px;
   margin-right: 20px;
   padding: 5px 15px;
-  font-size: 12px;
   font-weight: 500;
 }
 
-button {
-  width: 130px;
-  height: 45px;
+.button {
+  padding: 12px 15px;
   color: #396df2;
   background-color: white;
   border: 1px solid #396df2;
   border-radius: 8px;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
   margin-bottom: 16px;
   transition: 0.3s;
 }
 
-button:hover {
+.button:hover {
   color: white;
   background-color: #6070ff;
   border: 1px solid #6070ff;
 }
 
-button:focus {
+.button:focus {
   color: white;
   background-color: #3f4cdb;
   border: 1px solid #3f4cdb;
@@ -513,7 +519,7 @@ button:focus {
 
 hr {
   border-top: 1px solid #ebecf0;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .ll11 {
@@ -638,6 +644,54 @@ footer {
 }
 
 @media screen and (min-width: 992px) {
+  .Contaner {
+    width: 63.3%;
+    height: auto;
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 0%;
+    padding-bottom: 30px;
+  }
+
+  .list_buttons {
+    margin-bottom: 30px;
+  }
+
+  .bottom div {
+    font-size: 14px;
+    padding: 12px 20px 12px 0;
+    width: 70%;
+  }
+
+  .bottom .grd {
+    padding: 15px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  .bottom .grd li {
+    margin-right: 8px;
+    padding: 4px;
+    height: 28px;
+  }
+
+  .seeMore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 7px;
+    /* margin-top: 20px; */
+  }
+
+  .d-- {
+    display: block;
+  }
+
   .ppp {
     padding: 3.5px 8px;
     margin-top: 8px;
