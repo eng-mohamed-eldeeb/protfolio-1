@@ -5,10 +5,8 @@
 - Protfolio: (https://eng-mohamed-eldeeb.github.io/protofolio/)
 
 > This is the desktop vesrion of my portifolio.
- 
-![screenshot](./img/sshot.png)
 
-![screenshot](./img/scs.png)
+![screenshot](./img/popup-nume.PNG)
 
 Additional description about the project and its features.
 
