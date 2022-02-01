@@ -80,6 +80,7 @@ body {
 
 .bottom .grd {
   height: 25%;
+  width: 25%;
   display: grid;
   grid-template-columns: repeat(3, auto);
   padding-bottom: 24px;
