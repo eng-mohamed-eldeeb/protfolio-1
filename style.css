@@ -70,6 +70,15 @@ li {
   gap: 40px;
 }
 
+.nav-link a {
+  color: #344563;
+}
+
+.hero-container a {
+  color: #7f8cff;
+}
+
+
 .mop_menu ul li a {
   font-weight: 600;
   font-size: 32px;
@@ -108,11 +117,6 @@ nav {
   justify-content: space-between;
   gap: 32px;
 }
-
-.nav-link a {
-  color: #344563;
-}
-
 .logo {
   color: #6070ff;
 }
@@ -127,10 +131,6 @@ nav {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   gap: 12px;
-}
-
-.hero-container a {
-  color: #7f8cff;
 }
 
 .hero-heading {
