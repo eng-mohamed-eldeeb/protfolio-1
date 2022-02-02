@@ -77,6 +77,58 @@ li {
   font-size: 32px;
 }
 
+.popupContaner {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(185, 185, 185, 0.609);
+  z-index: 2;
+}
+
+.popupContaner .popupwrapper {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.popupContaner .popupwrapper .project {
+  width: 100%;
+  margin: 0;
+  flex-direction: column;
+}
+
+.popupContaner .popupwrapper .project i {
+  align-self: end;
+}
+
+.project-info h1 {
+  color: #172B4D;
+  font-size: 32px;
+}
+
+.popupBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.popupBtnn a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #6070FF;
+}
+
+.popupBtnn a:hover {
+  color: white;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+}
+
 #hero {
   background: white url("./img/desktopb-mobile.png") no-repeat center;
   background-size: cover;
