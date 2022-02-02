@@ -19,14 +19,34 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <title>Mohamed's Portfolio homepage</title>
   </head>
+
   <body>
-    <section class="hero">
+    <div class="menu_contaner d-none">
+      <div class="wrapper d-none">
+        <i id="iconX" class="fas fa-lg fa-times"></i>
+        <ul class="options">
+          <li class="protofilo"><a href="#hero"> protofilo</a></li>
+          <li class="About"><a href="#works"> about</a></li>
+          <li class="contact"><a href="#contact"> contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <section id="hero">
       <header class="navbar">
         <div class="navbar-container">
           <div class="brand">
-            <a href="#" class="logo"><h1>My logo</h1></a>
+            <a href="#" class="logo">
+              <h1>My logo</h1>
+            </a>
           </div>
           <nav>
             <ul class="nav-links">
@@ -41,7 +61,7 @@
               </li>
             </ul>
             <div>
-              <i class="fas fa-bars bars-icon"></i>
+              <i id="menuIcon" class="fas fa-bars bars-icon"></i>
             </div>
           </nav>
         </div>
@@ -83,7 +103,7 @@
         </ul>
       </div>
     </section>
-    <section class="works">
+    <section id="works">
       <div class="container3">
         <div class="project">
           <img class="img100" src="./img/workPhoto.png" alt="work photo one" />
@@ -128,7 +148,11 @@
           </div>
         </div>
         <div class="project">
-          <img class="img100" src="./img/workPoto2.png" alt="work photo three" />
+          <img
+            class="img100"
+            src="./img/workPoto2.png"
+            alt="work photo three"
+          />
           <div class="project-info">
             <h3>Tonic</h3>
             <div class="in-body">
