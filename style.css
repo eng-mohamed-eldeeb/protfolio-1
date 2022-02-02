@@ -1,4 +1,8 @@
 /* stylelint-disable declaration-block-no-duplicate-properties */
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,6 +23,10 @@ body {
   position: fixed;
 }
 
+.d-flex{
+  display: flex;
+}
+
 li {
   list-style: none;
 }
@@ -26,7 +34,6 @@ li {
 .menu_contaner {
   width: 100%;
   height: 100%;
-  display: flex;
   justify-content: center;
   background-color: #6070ffb0;
   backdrop-filter: blur(5px);
@@ -39,7 +46,6 @@ li {
   border-radius: 10px;
   padding: 28px;
   color: #fff;
-  display: flex;
   flex-direction: column;
 }
 
@@ -48,20 +54,22 @@ li {
 }
 
 .wrapper .options {
-  height: 60%;
-  display: flex;
+  height: auto;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 20px;
 }
 
-.wrapper .options a {
+.options li {
+  margin-top: 40px;
+}
+
+.wrapper .options li a {
   color: #fff;
   font-weight: 600;
   font-size: 32px;
 }
 
-.hero {
+#hero {
   background: white url("./img/desktopb-mobile.png") no-repeat center;
   background-size: cover;
   width: 100%;
