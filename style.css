@@ -78,7 +78,6 @@ li {
   color: #7f8cff;
 }
 
-
 .mop_menu ul li a {
   font-weight: 600;
   font-size: 32px;
@@ -117,6 +116,7 @@ nav {
   justify-content: space-between;
   gap: 32px;
 }
+
 .logo {
   color: #6070ff;
 }
