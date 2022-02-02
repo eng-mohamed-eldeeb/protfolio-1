@@ -19,11 +19,11 @@ body {
   display: none;
 }
 
-.p-fixed   {
+.p-fixed {
   position: fixed;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
@@ -61,6 +61,14 @@ li {
 
 .options li {
   margin-top: 40px;
+}
+
+.hero-container a {
+  color: #7f8cff;
+}
+
+.nav-link a {
+  color: #344563;
 }
 
 .wrapper .options li a {
@@ -112,10 +120,6 @@ nav {
   gap: 32px;
 }
 
-.nav-link a {
-  color: #344563;
-}
-
 .logo {
   color: #6070ff;
 }
@@ -130,10 +134,6 @@ nav {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   gap: 12px;
-}
-
-.hero-container a {
-  color: #7f8cff;
 }
 
 .hero-heading {
