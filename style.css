@@ -81,7 +81,7 @@ li {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  color: #6070FF;
+  color: #6070ff;
 }
 
 .popupBtnn a:hover {
@@ -123,6 +123,14 @@ li {
 
 .hero-icons li a i {
   color: #505f79;
+}
+
+.project {
+  width: 87%;
+  background-color: white;
+  border-radius: 30px;
+  margin: 57px auto;
+  padding: 16px;
 }
 
 .popupContaner .popupwrapper .project {
@@ -239,14 +247,6 @@ nav {
   align-items: center;
   justify-items: center;
   width: 100%;
-}
-
-.project {
-  width: 87%;
-  background-color: white;
-  border-radius: 30px;
-  margin: 57px auto;
-  padding: 16px;
 }
 
 .project h3 {
@@ -589,7 +589,7 @@ footer {
     margin-top: 0;
     padding-top: 0;
   }
-  
+
   .ppp {
     padding: 3.5px 8px;
     margin-top: 8px;
