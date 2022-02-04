@@ -267,6 +267,13 @@ nav {
   margin: 7px 0;
 }
 
+form ul li p {
+  text-align: center;
+  width: 100%;
+  margin-top: 12px;
+  color: #fff;
+}
+
 .skills-container p {
   color: #344563;
   font-weight: 500;
@@ -506,13 +513,6 @@ hr {
 form {
   width: 87%;
   margin: auto;
-}
-
-form ul li p {
-  text-align: center;
-  width: 100%;
-  margin-top: 12px;
-  color: #fff;
 }
 
 form p.error {

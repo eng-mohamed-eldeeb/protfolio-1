@@ -205,7 +205,6 @@ const form = document.querySelector('form');
     const errorMessage = document.getElementById('error-msg');
     if (userMail === userMail.toLowerCase()) {
       errorMessage.classList.toggle('d-none');
-      console.log(';asdk'); 
       form.submit();
     } else {
       errorMessage.classList.toggle('d-none');
