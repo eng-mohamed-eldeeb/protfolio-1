@@ -116,9 +116,10 @@ li {
 
 .popupContaner .popupwrapper {
   width: 80%;
-  height: auto;
+  height: 80vh;
   background-color: #fff;
   border-radius: 10px;
+  overflow-y: scroll;
 }
 
 .hero-icons li a i {
