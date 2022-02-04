@@ -116,7 +116,7 @@ li {
 
 .popupContaner .popupwrapper {
   width: 80%;
-  height: 80%;
+  height: auto;
   background-color: #fff;
   border-radius: 10px;
 }
@@ -305,10 +305,12 @@ nav {
 }
 
 .dis-- {
+  height: 100px;
   color: #344563;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  overflow-y: hidden;
 }
 
 .butt {
