@@ -187,7 +187,7 @@ function createWork(popupData) {
   return popupWrapper;
 }
 
-for (let i = 0; i < 4; i +=1) {
+for (let i = 0; i < 4; i += 1) {
   const popupData = dataArray[i];
   const popup = createWork(popupData);
   console.log(popup);
