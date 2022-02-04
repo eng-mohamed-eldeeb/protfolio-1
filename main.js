@@ -193,3 +193,21 @@ for (let i = 0; i < 4; i += 1) {
   console.log(popup);
   work.append(popup);
 }
+
+const userInfo = document.querySelector('.userInfo');
+
+
+const form = document.querySelector('form');
+  const check = document.querySelector('.user-massag');
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const userMail = form.elements.userMail.value;
+    const errorMessage = document.getElementById('error-msg');
+    if (userMail === userMail.toLowerCase()) {
+      errorMessage.classList.toggle('d-none');
+      console.log(';asdk'); 
+      form.submit();
+    } else {
+      errorMessage.classList.toggle('d-none');
+    }
+  });
