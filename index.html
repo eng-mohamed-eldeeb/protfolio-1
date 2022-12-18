@@ -1,1 +1,422 @@
-change made
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Paprika&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Spline+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Mohamed's Portfolio homepage</title>
+  </head>
+  <body>
+    <div class="mop_menu menu-hidden">
+      <i id="xIcon" class="fas fa-2x fa-times"></i>
+      <ul>
+        <li><a class="listOption" href="#hero">Portfolio</a></li>
+        <li><a class="listOption" href="#works">About</a></li>
+        <li><a class="listOption" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="popupWindow d-none">
+      <div class="Contaner">
+        <div class="wrapper">
+          <button id="xIconPopup">
+            <i class="fas fa-2x fa-times"></i>
+          </button>
+          <h1>Tonic</h1>
+          <div class="in-body">
+            <p class="a7a">CANOPY</p>
+            <p>BACK END DEV</p>
+            <p>2015</p>
+          </div>
+          <img src="./img/pop.png" alt="" />
+          <div class="bottom">
+            <div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur deleniti ratione, necessitatibus iste perspiciatis
+                laudantium qui tenetur nostrum laboriosam doloremque hic nihil,
+                ipsa alias. Quas quod inventore eaque deserunt ipsum hic,
+                voluptatem omnis quidem doloribus laborum numquam ipsam
+                reiciendis dolorem eligendi nobis. Quis veniam voluptatibus
+                culpa aperiam, deserunt aliquam numquam illo magni ducimus
+                excepturi dicta perferendis, optio sunt, placeat quisquam
+                corporis consequuntur temporibus. Cumque est repellendus odit ex
+                eius vel, iste quis? Sed distinctio id unde magni doloremque
+                suscipit quod quis beatae ad dolores nulla dolore, molestias
+                eveniet aspernatur eius.
+              </p>
+            </div>
+            <div class="list_buttons">
+              <ul class="grd">
+                <li class="ppp">html</li>
+                <li class="ppp">css</li>
+                <li class="ppp">javaScript</li>
+                <li class="ppp d--">github</li>
+                <li class="ppp d--">ruby</li>
+                <li class="ppp d--">bootstrap</li>
+              </ul>
+              <hr />
+              <div class="btns">
+                <button type="button" class="button">
+                  <p>See live</p>
+                  <i class="far fa-share-square"></i>
+                </button>
+                <button type="button" class="button">
+                  <p>See course</p>
+                  <i class="fab fa-github"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    <div class="popupWindow d-none">
+      <div class="Contaner">
+        <div class="wrapper">
+          <i id="xIconPopup" class="fas fa-2x fa-times"></i>
+          <h1>Tonic</h1>
+          <div class="in-body">
+            <p class="a7a">CANOPY</p>
+            <p>BACK END DEV</p>
+            <p>2015</p>
+          </div>
+          <img src="./img/pop.png" alt="" />
+          <div class="mobBottom">
+            <div class="mobBottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Laudantium distinctio quidem dolorum dolor animi fugit unde
+                eligendi totam saepe aspernatur a minus placeat quas explicabo
+                voluptatibus commodi exercitationem porro illo, dolores
+                incidunt! Neque ab nulla nihil esse officia modi aliquam.
+              </p>
+              <ul>
+                <li class="ppp">html</li>
+                <li class="ppp">css</li>
+                <li class="ppp">javaScript</li>
+              </ul>
+              <div class="btns">
+                <button type="button" class="seeMore">
+                  <p>See live</p>
+                  <i class="far fa-share-square"></i>
+                </button>
+                <button type="button" class="seeMore">
+                  <p>See course</p>
+                  <i class="fab fa-github"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <section id="hero">
+      <header class="navbar">
+        <div class="navbar-container">
+          <div class="brand">
+            <a href="#" class="logo"><h1>My logo</h1></a>
+          </div>
+          <nav>
+            <ul class="nav-links">
+              <li class="nav-link">
+                <a href="#protofilo">Portoflio</a>
+              </li>
+              <li class="nav-link">
+                <a href="#about">About</a>
+              </li>
+              <li class="nav-link">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+            <div>
+              <i id="menuIcon" class="fas fa-bars bars-icon"></i>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <div class="hero-container">
+        <h1 class="hero-heading">
+          I’m Eldeeb <br />
+          Glad to see you!
+        </h1>
+
+        <p class="hero-description">
+          I’m a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+        <a class="connect" href="">LET’S CONNECT</a>
+
+        <ul class="hero-icons">
+          <li>
+            <a href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href=""> <img src="./img/Vector-1.png" alt="" /></a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="far fa-hand-peace"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="works">
+      <div class="container3">
+        <div class="project">
+          <img class="img100" src="./img/workPhoto.png" alt="work photo one" />
+          <div class="project-info">
+            <h3>Tonic</h3>
+            <div class="in-body">
+              <p class="a7a">CANOPY</p>
+              <p>BACK END DEV</p>
+              <p>2015</p>
+            </div>
+            <p class="dis--">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="butt">
+              <li class="ppp">html</li>
+              <li class="ppp">css</li>
+              <li class="ppp">javaScript</li>
+            </ul>
+            <button class="seeProject button" type="button">See Project</button>
+          </div>
+        </div>
+        <div class="project">
+          <img class="img100" src="./img/workPhoto1.png" alt="work photo two" />
+          <div class="project-info">
+            <h3>Tonic</h3>
+            <div class="in-body">
+              <p class="a7a">CANOPY</p>
+              <p>BACK END DEV</p>
+              <p>2015</p>
+            </div>
+            <p class="dis--">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="butt">
+              <li class="ppp">html</li>
+              <li class="ppp">css</li>
+              <li class="ppp">javaScript</li>
+            </ul>
+            <button class="seeProject button" type="button">See Project</button>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            class="img100"
+            src="./img/workPoto2.png"
+            alt="work photo three"
+          />
+          <div class="project-info">
+            <h3>Tonic</h3>
+            <div class="in-body">
+              <p class="a7a">CANOPY</p>
+              <p>BACK END DEV</p>
+              <p>2015</p>
+            </div>
+            <p class="dis--">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="butt">
+              <li class="ppp">html</li>
+              <li class="ppp">css</li>
+              <li class="ppp">javaScript</li>
+            </ul>
+            <button class="seeProject button" type="button">See Project</button>
+          </div>
+        </div>
+        <div class="project">
+          <img class="img100" src="./img/workPoto3.png" alt="work photo four" />
+          <div class="project-info">
+            <h3>Tonic</h3>
+            <div class="in-body">
+              <p class="a7a">CANOPY</p>
+              <p>BACK END DEV</p>
+              <p>2015</p>
+            </div>
+            <p class="dis--">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <ul class="butt">
+              <li class="ppp">html</li>
+              <li class="ppp">css</li>
+              <li class="ppp">javaScript</li>
+            </ul>
+            <button class="seeProject button" type="button">See Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-me">
+      <div class="about">
+        <div class="contaner5">
+          <h2 class="greads">
+            About <br />
+            Myself
+          </h2>
+          <p class="intrudusing">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+          <a class="LETS connect">LET’S CONNECT</a>
+          <ul class="icons_cont">
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-angellist"></i></a>
+            </li>
+            <li>
+              <a href=""> <img src="./img/Vector-1.png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-github"></i></a>
+            </li>
+          </ul>
+          <button class="seeProject button" type="button">Get my resume</button>
+        </div>
+        <div class="container4">
+          <ul class="skills-list">
+            <li class="skills-container open">
+              <div class="skills-heading">
+                <p class="skl-h1">Languages</p>
+                <i class="fas fa-angle-down"></i>
+              </div>
+              <ul class="skills-content">
+                <li class="skill">
+                  <img src="./img/js.png" alt="js" class="skill-image" />
+                  <p class="skill-title">JavaScript</p>
+                </li>
+                <li class="skill">
+                  <img src="./img/html.png" alt="html" class="skill-image" />
+                  <p class="skill-title">Html</p>
+                </li>
+                <li class="skill">
+                  <img src="./img/css.png" alt="css" class="skill-image" />
+                  <p class="skill-title">CSS</p>
+                </li>
+              </ul>
+            </li>
+            <li class="skills-container">
+              <div class="skills-heading">
+                <p class="skl-h1">Frameworks</p>
+                <i class="fas fa-angle-right"></i>
+              </div>
+              <div class="skills-content"></div>
+            </li>
+            <li class="skills-container">
+              <div class="skills-heading">
+                <p class="skl-h1">Skills</p>
+                <i class="fas fa-angle-right"></i>
+              </div>
+              <div class="skills-content"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <div class="form-container">
+        <div class="form-title">
+          <h3>Contact Me</h3>
+          <p class="text-muted">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I’d love
+            to help with it
+          </p>
+        </div>
+        <form action="https://formspree.io/f/mrgrvdkl" method="post">
+          <ul class="ulclass">
+            <li>
+              <input
+                type="text"
+                class="userInfo"
+                name="user-name"
+                placeholder="Full name"
+                maxlength="30"
+                required
+              />
+            </li>
+            <li>
+              <input
+                type="email"
+                class="userInfo"
+                name="userMail"
+                placeholder="You'r email"
+                required
+              />
+            </li>
+            <li>
+              <textarea
+                class="userInfo user-massage"
+                name="user-name mass"
+                placeholder="Write your message here"
+                maxlength="500"
+                required
+              ></textarea>
+            </li>
+            <li class="btnArea">
+              <button type="submit" class="touch_btn button">
+                Get in touch
+              </button>
+            </li>
+          </ul>
+        </form>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KGSDMJFL9T"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-KGSDMJFL9T");
+    </script>
+  </body>
+</html>
